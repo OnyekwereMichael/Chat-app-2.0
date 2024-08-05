@@ -1,5 +1,5 @@
 import Cookies from "universal-cookie"
-import { auth, provider } from "../Firebase/firebase,config"
+import { auth, provider } from "../Firebase/firebase.config";
 import { signInWithPopup } from "firebase/auth"
 
 const cookies = new Cookies()
@@ -19,7 +19,7 @@ function Authe({setAuth}) {
   return (
     <div className="sign-in">
       <p>Sign in with Google to continue</p>
-      <button onClick={signinwithGoggle} className="sign-in-Button">Sign in with Google meet</button>
+      <button onClick={signinwithGoggle} className="sign-in-Button">Sign in with Google run</button>
     </div>
   )
 }
