@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend", Arial, Helvetica, sans-serif;
+  height: 100vh;
+  background-color: #f7f8fc;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-container h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #333;
+}
+
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.chat {
+  margin-bottom: 15px;
+  background-color: #4a76a8;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom-right-radius: 15px;
+  color: white;
+}
+
+.chat .user {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.chat .text {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.form button {
+  background-color: #4a76a8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s;
+}
+
+.form button:hover {
+  background-color: #3a5a8e;
+}
+
+.sign-out {
+  width: 100px;
+  background: #000;
+  padding: 10px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.sign-in{
+ width: 25%;
+ padding: 20px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin: 200px auto;
+ border: 1px solid #ddd;
+ background-color: #fff;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sign-in p{
+ font-size: 18px;
+ margin: 15px;
+}
+.sign-in-Button{
+  background: #000;
+  padding: 10px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.rooms{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px auto;
+}
+
+.enterRoom{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.roomInput{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .chat-container {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .form input[type="text"] {
+    font-size: 14px;
+  }
+
+  .form button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .chat-container h1 {
+    font-size: 21px;
+  }
+}
