@@ -30,7 +30,7 @@ function App() {
           <div className="rooms">
             <label className="enterRoom">Enter Room Name</label>
             <input type="text" ref={roomInput} className="roomInput"/>
-            <button onClick={() => Setroom(roomInput.current.value)}>Enter Chat</button>
+            <button onClick={() => Setroom(roomInput.current.value)}>Enter Chat</button> 
           </div>}
       </div>
 
