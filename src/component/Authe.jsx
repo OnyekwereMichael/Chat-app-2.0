@@ -19,7 +19,7 @@ function Authe({setAuth}) {
   return (
     <div className="sign-in">
       <p>Sign in with Google to continue</p>
-      <button onClick={signinwithGoggle} className="sign-in-Button">Sign in with Google</button>
+      <button onClick={signinwithGoggle} className="sign-in-Button">Sign in with Google meet</button>
     </div>
   )
 }
